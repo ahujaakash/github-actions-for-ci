@@ -24,7 +24,6 @@ describe('Game', () => {
       expect(game.p1).toBe('Salem')
       expect(game.p2).toBe('Nate')
     })
-  
     it('Initializes with an empty board', async () => {
       for (let r = 0; r < game.board.length; r++) {
         for (let c = 0; c < game.board[r].lenght; c++) {

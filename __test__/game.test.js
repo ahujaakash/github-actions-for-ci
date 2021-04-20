@@ -33,7 +33,7 @@ describe('Game', () => {
       }
     })
 
-//    it('Starts the game with a random player', async () => {
+/*    it('Starts the game with a random player', async () => {
       Math.random = () => 0.4
       expect(new Game(p1, p2).player).toBe('Salem')
 
@@ -41,7 +41,7 @@ describe('Game', () => {
       expect(new Game(p1, p2).player).toBe('Nate')
     })
   })
-
+*/
   describe('turn', () => {
     it("Inserts an 'X' into the top center", async () => {
       game.turn(0, 1)
